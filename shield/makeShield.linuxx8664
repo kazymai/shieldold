@@ -1,0 +1,8 @@
+#!/bin/bash
+echo 'Starting compilation of SHIELD 64 bit'
+export FCOMPILER=g77
+export CCOMPILER=gcc
+export COMPOPTIONS="-c -fPIC -m64"
+export LINKOPTIONS="-m64"
+export LINKER=g77
+. ./makeShield.main

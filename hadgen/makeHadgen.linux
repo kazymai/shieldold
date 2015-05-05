@@ -1,0 +1,7 @@
+#!/bin/sh
+echo 'Starting compilation of HADGEN 32bit'
+export FCOMPILER=g77
+export CCOMPILER=gcc
+export COMPOPTIONS="-c -fPIC"
+export LINKOPTIONS=g77
+. ./makeHadgen.main

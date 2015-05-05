@@ -1,0 +1,24 @@
+Primary particle
+
+type:               JPART = ITREE(1,2)
+for nuclei (JPART == 25):
+A:                  IAPR = INT(TREE(14,2))
+Z:                  IZPR = INT(TREE(15,2))
+for K0 (L,S) (JPART == 10 | 11), flags:
+                    K0L=IFIX(TREE(10,2))  == 1 if K0 long
+                    K0S=IFIX(TREE(11,2))  == 1 if K0 short
+
+energy:             TI = TREE(7,2)
+
+entry point:        XI = TREE(1,2)
+                    YI = TREE(2,2)
+                    ZI = TREE(3,2)
+direction angles:   COST = TREE(4,2)
+                    SINF = TREE(5,2)
+                    COSF = TREE(6,2)
+
+
+
+
+
+

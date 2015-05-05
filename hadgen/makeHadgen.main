@@ -1,0 +1,34 @@
+#!/bin/bash
+echo 'Building HADGEN lib...'
+cd parse
+./makeParse.sh
+cd ..
+export ADDCOMPOPT="-pthread -Iinc -Iparse"
+$CCOMPILER $COMPOPTIONS $ADDCOMPOPT src/hadgen_common_blocks.c
+$CCOMPILER $COMPOPTIONS $ADDCOMPOPT src/hadgen_main.c 
+$CCOMPILER $COMPOPTIONS $ADDCOMPOPT src/hadgen_options.c 
+$CCOMPILER $COMPOPTIONS $ADDCOMPOPT src/hadgen_prev.c 
+$CCOMPILER $COMPOPTIONS $ADDCOMPOPT src/hadgen_tabnuc.c 
+$CCOMPILER $COMPOPTIONS $ADDCOMPOPT src/hadgen_time.c
+$CCOMPILER $COMPOPTIONS $ADDCOMPOPT src/hadgen_setdky.c
+$FCOMPILER $COMPOPTIONS ./src/HistAGT.f
+$FCOMPILER $COMPOPTIONS ./src/Qgsmn1.f 
+$FCOMPILER $COMPOPTIONS ./src/Qgsmn2.f 
+$FCOMPILER $COMPOPTIONS ./src/casevp.f 
+$FCOMPILER $COMPOPTIONS ./src/coales.f 
+$FCOMPILER $COMPOPTIONS ./src/deex.f 
+$FCOMPILER $COMPOPTIONS ./src/files.f 
+$FCOMPILER $COMPOPTIONS ./src/genagt.f 
+$FCOMPILER $COMPOPTIONS ./src/gqaar.f 
+$FCOMPILER $COMPOPTIONS  ./src/gqamn.f
+$FCOMPILER $COMPOPTIONS ./src/gqstn.f
+$FCOMPILER $COMPOPTIONS ./src/hadgen_so.f
+$FCOMPILER $COMPOPTIONS ./src/preco.f
+$FCOMPILER $COMPOPTIONS ./src/ranlux.f
+echo 'Linking HADGEN lib...'
+mkdir lib
+$LINKER $LINKOPTIONS -lrt -shared -Wl,-soname,libHadgen2.so -o ./lib/libHadgen2.so *.o
+# cleaning
+rm -f *.o
+echo 'libHadgen.so - Finished'
+

@@ -1,0 +1,67 @@
+List of conflicting subroutines
+
+                HADGEN
+                hadgen_so.f
+  REACT  -- CONFLICT! LEAVE, used only in stand-alone HADGEN
+HISHAD
+HISION
+CLEHAD
+CLEION
+CLECON
+PRICON
+PRIHAD
+PRIION
+RESNHS
+RESNCL
+RESNPR
+HIST
+  INITIS  -- GOOD
+  AMIXIS  -- GOOD
+  LABANT  -- CONFLICT! LEAVE, used in HISHAD, HISION, only in stand-alone HADGEN
+  MOMSFE  -- GOOD
+  LORENZ  -- GOOD
+  PRILOR  -- GOOD
+  INLEVR  -- GOOD
+
+                HistAGT.f
+HIST3AGT
+HIST180
+STARAGT
+BYEVENT
+  SEARCH  -- GOOD
+MAKEGRID
+MAKEUNI
+MAKELOG
+MAKEGEP
+
+
+
+                SHIELD
+                shield.f
+  REACT   -- CONFLICT! RENAME, call only from gentree.f:106
+    renamed to SREACT
+DIMAR
+CUTOFF
+  LABANT  -- CONFLICT! RENAME, call only Shield.f:372
+    renamed to SLABANT
+  MOMSFE  -- TRUNCATED
+  LORENZ  -- TRUNCATED
+  PRILOR  -- TRUNCATED
+  INLEVR  -- TRUNCATED
+
+                Medium.f
+  AMIXIS  -- TRUNCATED
+  INITIS  -- TRUNCATED
+SERCH3
+  SEARCH  -- TRUNCATED
+MACROS
+OPT1T2
+RT1T2
+DEDXMD
+DEDX
+ROPTHI
+CALMHI
+ROPTPR
+CALMAC
+BDPRIN
+INMACR

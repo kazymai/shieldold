@@ -1,0 +1,32 @@
+#!/bin/bash
+echo 'Building SHIELD lib...' 
+export ADDCOMPOPT='-Iinc -I../hadgen/inc -DUSE_GEMCA'
+$CCOMPILER $COMPOPTIONS $ADDCOMPOPT src/shield_decode_tree.c
+$CCOMPILER $COMPOPTIONS $ADDCOMPOPT src/shield_geo.c
+$CCOMPILER $COMPOPTIONS $ADDCOMPOPT src/shield_init.c
+$CCOMPILER $COMPOPTIONS $ADDCOMPOPT src/shield_iso.c
+$CCOMPILER $COMPOPTIONS $ADDCOMPOPT src/shield_media.c
+$CCOMPILER $COMPOPTIONS $ADDCOMPOPT src/shield_setget.c
+
+$FCOMPILER $COMPOPTIONS -w src/Fragments.f
+$FCOMPILER $COMPOPTIONS -w src/Inspar.f
+$FCOMPILER $COMPOPTIONS -w src/Loent28.f
+$FCOMPILER $COMPOPTIONS -w src/Medium.f
+$FCOMPILER $COMPOPTIONS -w src/Microd.f
+$FCOMPILER $COMPOPTIONS -w src/Shield_so.f
+$FCOMPILER $COMPOPTIONS -w src/Tree.f
+$FCOMPILER $COMPOPTIONS -w src/decay1.f
+$FCOMPILER $COMPOPTIONS -w src/elscat.f
+$FCOMPILER $COMPOPTIONS -w src/gemca.f
+$FCOMPILER $COMPOPTIONS -w src/files.f
+$FCOMPILER $COMPOPTIONS -w src/gentree.f
+$FCOMPILER $COMPOPTIONS -w src/lndata28.f
+$FCOMPILER $COMPOPTIONS -w src/range.f
+$FCOMPILER $COMPOPTIONS -w src/Output.f
+
+echo 'Linking SHIELD...'
+mkdir lib
+$LINKER $LINKOPTIONS -lrt -L../lib -lHadgen2 -shared -Wl,-soname,libShield.so -o ./lib/libShield.so *.o
+#clean
+rm -f *.o
+echo 'libShield.so - Finished'

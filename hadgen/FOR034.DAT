@@ -1,0 +1,13 @@
+
+          PARAMETERS of the SHIELD hA- and AA-GENERATOR
+          HAVE BEEN ESTABLISHED. The following values
+          differ from default ones:
+       3. AGT parameter MMES:             999.99902
+      23. DEEX parameter ICAN:                    1
+      27. DEEX parameter RNCL:              1.30000
+      28. DEEX parameter AMS:               0.10000
+      29. DEEX parameter AMFS:              0.10000
+      39. SIGION AA-Renorm parameter:       1.00000
+
+     Initial state of the RANLUX random generator.
+     LUX,INT,K1,K2:           4   801240540           0           0

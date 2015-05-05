@@ -56,7 +56,7 @@ run_en(Double_t Energy, Int_t n_stat, Int_t hist_size, Double_t width) {
         for(Int_t i=0; i<n_hist; i++) hist_t_y[i][j] = 0.0;
     }
     cout<<"Loading SHIELD"<<endl;
-    gSystem->Load("libEGShield.so");
+    gSystem->Load("libTShield.so");
     TShield b;
 
 	Int_t n_part;

@@ -11,7 +11,7 @@
 #define SHIELD_TREE_H
 
 #ifndef SHIELD_H
-#error ERROR: Don't include shield_tree.h header, include shield.h instead
+#error ERROR: Do not include shield_tree.h header, include shield.h instead
 #endif
 
 // base structures of TREE data

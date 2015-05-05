@@ -2,7 +2,7 @@
 #define SHIELD_MEDIA_H
 
 #ifndef SHIELD_H
-#error ERROR: Don't include shield_media.h header, include shield.h instead
+#error ERROR: Do not include shield_media.h header, include shield.h instead
 #endif
 
 struct Element

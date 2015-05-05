@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/src/hadgen_setdky.c
+hadgen.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/src/hadgen.h
+hadgen_common_blocks.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/src/hadgen_common_blocks.h
+atab.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/src/atab.h
+
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/src/hadgen_tabnuc.c
+hadgen_common_blocks.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/src/hadgen_common_blocks.h
+stdio.h
+-
+tabnuc.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/src/tabnuc.h
+
+hadgen/inc/hadgen.h
+
+hadgen/inc/hadgen_common_blocks.h
+
+hadgen/parse/atab.h
+
+hadgen/parse/tabnuc.h
+

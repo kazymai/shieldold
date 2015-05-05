@@ -1,5 +1,5 @@
 #ifndef SHIELD_H
-#error ERROR: Don't include shield_geo.h, include shield.h instead.
+#error ERROR: Do not include shield_geo.h, include shield.h instead.
 #endif
 
 #ifndef SHIELD_GEO_H

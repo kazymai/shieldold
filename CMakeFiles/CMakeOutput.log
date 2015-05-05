@@ -1,0 +1,398 @@
+The system is: Linux - 2.6.18-404.el5 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/rh/devtoolset-2/root/usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/rh/devtoolset-2/root/usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3204738453/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3204738453.dir/build.make CMakeFiles/cmTryCompileExec3204738453.dir/build
+gmake[1]: Entering directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp'
+/opt/shield/etc/bin/cmake -E cmake_progress_report /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3204738453.dir/testCCompiler.c.o
+/opt/rh/devtoolset-2/root/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3204738453.dir/testCCompiler.c.o   -c /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3204738453
+/opt/shield/etc/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3204738453.dir/link.txt --verbose=1
+/opt/rh/devtoolset-2/root/usr/bin/cc       CMakeFiles/cmTryCompileExec3204738453.dir/testCCompiler.c.o  -o cmTryCompileExec3204738453 -rdynamic 
+gmake[1]: Leaving directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1663737544/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1663737544.dir/build.make CMakeFiles/cmTryCompileExec1663737544.dir/build
+gmake[1]: Entering directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp'
+/opt/shield/etc/bin/cmake -E cmake_progress_report /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1663737544.dir/CMakeCCompilerABI.c.o
+/opt/rh/devtoolset-2/root/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1663737544.dir/CMakeCCompilerABI.c.o   -c /opt/shield/etc/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1663737544
+/opt/shield/etc/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1663737544.dir/link.txt --verbose=1
+/opt/rh/devtoolset-2/root/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1663737544.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1663737544 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/opt/rh/devtoolset-2/root/usr/bin/cc
+COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/opt/rh/devtoolset-2/root/usr --mandir=/opt/rh/devtoolset-2/root/usr/share/man --infodir=/opt/rh/devtoolset-2/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --disable-gnu-unique-object --enable-linker-build-id --enable-languages=c,c++,fortran,lto --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/cloog-install --with-gmp=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/gmp-install --with-mpfr=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpfr-install --with-mpc=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpc-install --with-tune=generic --with-arch_32=i586 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.1 20130715 (Red Hat 4.8.1-4) (GCC) 
+COMPILER_PATH=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1663737544' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1663737544 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtbegin.o -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../.. CMakeFiles/cmTryCompileExec1663737544.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec1663737544/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1663737544.dir/build.make CMakeFiles/cmTryCompileExec1663737544.dir/build]
+  ignore line: [gmake[1]: Entering directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp']
+  ignore line: [/opt/shield/etc/bin/cmake -E cmake_progress_report /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1663737544.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/rh/devtoolset-2/root/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1663737544.dir/CMakeCCompilerABI.c.o   -c /opt/shield/etc/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1663737544]
+  ignore line: [/opt/shield/etc/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1663737544.dir/link.txt --verbose=1]
+  ignore line: [/opt/rh/devtoolset-2/root/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1663737544.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1663737544 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/rh/devtoolset-2/root/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/opt/rh/devtoolset-2/root/usr --mandir=/opt/rh/devtoolset-2/root/usr/share/man --infodir=/opt/rh/devtoolset-2/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --disable-gnu-unique-object --enable-linker-build-id --enable-languages=c,c++,fortran,lto --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/cloog-install --with-gmp=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/gmp-install --with-mpfr=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpfr-install --with-mpc=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpc-install --with-tune=generic --with-arch_32=i586 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 20130715 (Red Hat 4.8.1-4) (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1663737544' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1663737544 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtbegin.o -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../.. CMakeFiles/cmTryCompileExec1663737544.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1663737544] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtbegin.o] ==> ignore
+    arg [-L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1] ==> dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1]
+    arg [-L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64] ==> dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../..] ==> dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../..]
+    arg [CMakeFiles/cmTryCompileExec1663737544.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1] ==> [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1]
+  collapse library dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64] ==> [/opt/rh/devtoolset-2/root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../..] ==> [/opt/rh/devtoolset-2/root/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1;/opt/rh/devtoolset-2/root/usr/lib64;/lib64;/usr/lib64;/opt/rh/devtoolset-2/root/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec527605557/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec527605557.dir/build.make CMakeFiles/cmTryCompileExec527605557.dir/build
+gmake[1]: Entering directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp'
+/opt/shield/etc/bin/cmake -E cmake_progress_report /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec527605557.dir/testCXXCompiler.cxx.o
+/opt/rh/devtoolset-2/root/usr/bin/c++     -o CMakeFiles/cmTryCompileExec527605557.dir/testCXXCompiler.cxx.o -c /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec527605557
+/opt/shield/etc/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec527605557.dir/link.txt --verbose=1
+/opt/rh/devtoolset-2/root/usr/bin/c++        CMakeFiles/cmTryCompileExec527605557.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec527605557 -rdynamic 
+gmake[1]: Leaving directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2171253883/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2171253883.dir/build.make CMakeFiles/cmTryCompileExec2171253883.dir/build
+gmake[1]: Entering directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp'
+/opt/shield/etc/bin/cmake -E cmake_progress_report /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2171253883.dir/CMakeCXXCompilerABI.cpp.o
+/opt/rh/devtoolset-2/root/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2171253883.dir/CMakeCXXCompilerABI.cpp.o -c /opt/shield/etc/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2171253883
+/opt/shield/etc/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2171253883.dir/link.txt --verbose=1
+/opt/rh/devtoolset-2/root/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2171253883.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2171253883 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/opt/rh/devtoolset-2/root/usr/bin/c++
+COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/opt/rh/devtoolset-2/root/usr --mandir=/opt/rh/devtoolset-2/root/usr/share/man --infodir=/opt/rh/devtoolset-2/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --disable-gnu-unique-object --enable-linker-build-id --enable-languages=c,c++,fortran,lto --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/cloog-install --with-gmp=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/gmp-install --with-mpfr=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpfr-install --with-mpc=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpc-install --with-tune=generic --with-arch_32=i586 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.1 20130715 (Red Hat 4.8.1-4) (GCC) 
+COMPILER_PATH=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2171253883' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2171253883 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtbegin.o -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../.. CMakeFiles/cmTryCompileExec2171253883.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2171253883/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2171253883.dir/build.make CMakeFiles/cmTryCompileExec2171253883.dir/build]
+  ignore line: [gmake[1]: Entering directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp']
+  ignore line: [/opt/shield/etc/bin/cmake -E cmake_progress_report /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2171253883.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/rh/devtoolset-2/root/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2171253883.dir/CMakeCXXCompilerABI.cpp.o -c /opt/shield/etc/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2171253883]
+  ignore line: [/opt/shield/etc/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2171253883.dir/link.txt --verbose=1]
+  ignore line: [/opt/rh/devtoolset-2/root/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2171253883.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2171253883 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/rh/devtoolset-2/root/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/opt/rh/devtoolset-2/root/usr --mandir=/opt/rh/devtoolset-2/root/usr/share/man --infodir=/opt/rh/devtoolset-2/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --disable-gnu-unique-object --enable-linker-build-id --enable-languages=c,c++,fortran,lto --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/cloog-install --with-gmp=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/gmp-install --with-mpfr=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpfr-install --with-mpc=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpc-install --with-tune=generic --with-arch_32=i586 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 20130715 (Red Hat 4.8.1-4) (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2171253883' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2171253883 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtbegin.o -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../.. CMakeFiles/cmTryCompileExec2171253883.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2171253883] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtbegin.o] ==> ignore
+    arg [-L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1] ==> dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1]
+    arg [-L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64] ==> dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../..] ==> dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../..]
+    arg [CMakeFiles/cmTryCompileExec2171253883.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1] ==> [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1]
+  collapse library dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64] ==> [/opt/rh/devtoolset-2/root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../..] ==> [/opt/rh/devtoolset-2/root/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1;/opt/rh/devtoolset-2/root/usr/lib64;/lib64;/usr/lib64;/opt/rh/devtoolset-2/root/usr/lib]
+  implicit fwks: []
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /opt/rh/devtoolset-2/root/usr/bin/gfortran 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/2.8.12.2/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec19851188/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec19851188.dir/build.make CMakeFiles/cmTryCompileExec19851188.dir/build
+gmake[1]: Entering directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp'
+/opt/shield/etc/bin/cmake -E cmake_progress_report /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec19851188.dir/testFortranCompiler.f.o
+/opt/rh/devtoolset-2/root/usr/bin/gfortran    -c /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTryCompileExec19851188.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTryCompileExec19851188
+/opt/shield/etc/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec19851188.dir/link.txt --verbose=1
+/opt/rh/devtoolset-2/root/usr/bin/gfortran       CMakeFiles/cmTryCompileExec19851188.dir/testFortranCompiler.f.o  -o cmTryCompileExec19851188 -rdynamic 
+gmake[1]: Leaving directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp'
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2418680632/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2418680632.dir/build.make CMakeFiles/cmTryCompileExec2418680632.dir/build
+gmake[1]: Entering directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp'
+/opt/shield/etc/bin/cmake -E cmake_progress_report /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec2418680632.dir/CMakeFortranCompilerABI.F.o
+/opt/rh/devtoolset-2/root/usr/bin/gfortran    -c /opt/shield/etc/share/cmake-2.8/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTryCompileExec2418680632.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTryCompileExec2418680632
+/opt/shield/etc/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2418680632.dir/link.txt --verbose=1
+/opt/rh/devtoolset-2/root/usr/bin/gfortran   -v   CMakeFiles/cmTryCompileExec2418680632.dir/CMakeFortranCompilerABI.F.o  -o cmTryCompileExec2418680632 -rdynamic  
+Driving: /opt/rh/devtoolset-2/root/usr/bin/gfortran -v CMakeFiles/cmTryCompileExec2418680632.dir/CMakeFortranCompilerABI.F.o -o cmTryCompileExec2418680632 -rdynamic -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/opt/rh/devtoolset-2/root/usr/bin/gfortran
+COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/opt/rh/devtoolset-2/root/usr --mandir=/opt/rh/devtoolset-2/root/usr/share/man --infodir=/opt/rh/devtoolset-2/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --disable-gnu-unique-object --enable-linker-build-id --enable-languages=c,c++,fortran,lto --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/cloog-install --with-gmp=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/gmp-install --with-mpfr=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpfr-install --with-mpc=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpc-install --with-tune=generic --with-arch_32=i586 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.1 20130715 (Red Hat 4.8.1-4) (GCC) 
+Reading specs from /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2418680632' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2418680632' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2418680632 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtbegin.o -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../.. CMakeFiles/cmTryCompileExec2418680632.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp'
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2418680632/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2418680632.dir/build.make CMakeFiles/cmTryCompileExec2418680632.dir/build]
+  ignore line: [gmake[1]: Entering directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp']
+  ignore line: [/opt/shield/etc/bin/cmake -E cmake_progress_report /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building Fortran object CMakeFiles/cmTryCompileExec2418680632.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/opt/rh/devtoolset-2/root/usr/bin/gfortran    -c /opt/shield/etc/share/cmake-2.8/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTryCompileExec2418680632.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTryCompileExec2418680632]
+  ignore line: [/opt/shield/etc/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2418680632.dir/link.txt --verbose=1]
+  ignore line: [/opt/rh/devtoolset-2/root/usr/bin/gfortran   -v   CMakeFiles/cmTryCompileExec2418680632.dir/CMakeFortranCompilerABI.F.o  -o cmTryCompileExec2418680632 -rdynamic  ]
+  ignore line: [Driving: /opt/rh/devtoolset-2/root/usr/bin/gfortran -v CMakeFiles/cmTryCompileExec2418680632.dir/CMakeFortranCompilerABI.F.o -o cmTryCompileExec2418680632 -rdynamic -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/rh/devtoolset-2/root/usr/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/opt/rh/devtoolset-2/root/usr --mandir=/opt/rh/devtoolset-2/root/usr/share/man --infodir=/opt/rh/devtoolset-2/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --disable-gnu-unique-object --enable-linker-build-id --enable-languages=c,c++,fortran,lto --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/cloog-install --with-gmp=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/gmp-install --with-mpfr=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpfr-install --with-mpc=/builddir/build/BUILD/gcc-4.8.1-20130715/obj-x86_64-redhat-linux/mpc-install --with-tune=generic --with-arch_32=i586 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 20130715 (Red Hat 4.8.1-4) (GCC) ]
+  ignore line: [Reading specs from /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2418680632' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COMPILER_PATH=/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2418680632' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2418680632 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtbegin.o -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../.. CMakeFiles/cmTryCompileExec2418680632.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.1/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2418680632] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtbegin.o] ==> ignore
+    arg [-L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1] ==> dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1]
+    arg [-L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64] ==> dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../..] ==> dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../..]
+    arg [CMakeFiles/cmTryCompileExec2418680632.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1] ==> [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1]
+  collapse library dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../../../lib64] ==> [/opt/rh/devtoolset-2/root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1/../../..] ==> [/opt/rh/devtoolset-2/root/usr/lib]
+  implicit libs: [gfortran;m;quadmath;m;c]
+  implicit dirs: [/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.1;/opt/rh/devtoolset-2/root/usr/lib64;/lib64;/usr/lib64;/opt/rh/devtoolset-2/root/usr/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4081917873/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4081917873.dir/build.make CMakeFiles/cmTryCompileExec4081917873.dir/build
+gmake[1]: Entering directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp'
+/opt/shield/etc/bin/cmake -E cmake_progress_report /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec4081917873.dir/testFortranCompilerF90.f90.o
+/opt/rh/devtoolset-2/root/usr/bin/gfortran    -c /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTryCompileExec4081917873.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTryCompileExec4081917873
+/opt/shield/etc/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4081917873.dir/link.txt --verbose=1
+/opt/rh/devtoolset-2/root/usr/bin/gfortran       CMakeFiles/cmTryCompileExec4081917873.dir/testFortranCompilerF90.f90.o  -o cmTryCompileExec4081917873 -rdynamic 
+gmake[1]: Leaving directory `/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles/CMakeTmp'
+
+

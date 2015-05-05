@@ -1,0 +1,6 @@
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/CMakeFiles/HADGEN.dir
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/CMakeFiles/SHIELD.dir
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/CMakeFiles/THadgen.dir
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/TShield/CMakeFiles/TShield.dir
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/parse/CMakeFiles/parse.dir
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/parse/CMakeFiles/parse_run.dir

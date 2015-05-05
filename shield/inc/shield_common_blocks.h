@@ -214,11 +214,11 @@ void shield_media_init();
 #define outtot outtot_
 #define neutlo neutlo_
 #define dectre dectre_
-#ifndef USE_GEMCA
-    #define gcurzl gcurzl_      // GEMCA subsitution
-    #define gnextz gnextz_
-    #define gzmed  gzmed_
-#endif
+//#ifndef USE_GEMCA
+//    #define gcurzl gcurzl_      // GEMCA subsitution
+//    #define gnextz gnextz_
+//    #define gzmed  gzmed_
+//#endif
 #define opensh opensh_
 #define clossh clossh_
 #define init_luxs initlux3_
@@ -258,11 +258,11 @@ void shield_tree_reset();
 // Geometry module
 // Instead of GEMCA
 // TODO test if double* or float* is used
-#ifndef USE_GEMCA
+//#ifndef USE_GEMCA
 void gcurzl(int *, float*); // current zone length
 void gnextz(int *);         // next zone number
 void gzmed(int *);
-#endif  /* GEMCA */
+//#endif  /* GEMCA */
 
 #endif	/* SHIELD_COMMON_BLOCKS_H */
 

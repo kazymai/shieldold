@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/parse/src/main.c
+stdio.h
+-
+string.h
+-
+

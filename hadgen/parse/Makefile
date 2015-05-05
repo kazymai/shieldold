@@ -45,7 +45,7 @@ CMAKE_EDIT_COMMAND = /opt/shield/etc/bin/ccmake
 CMAKE_SOURCE_DIR = /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield
+CMAKE_BINARY_DIR = /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(CMAKE_COMMAND) -E cmake_progress_start /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/parse/CMakeFiles/progress.marks
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f CMakeFiles/Makefile2 hadgen/parse/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles 0
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(CMAKE_COMMAND) -E cmake_progress_start /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/CMakeFiles /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/hadgen/parse/CMakeFiles/progress.marks
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f CMakeFiles/Makefile2 hadgen/parse/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f CMakeFiles/Makefile2 hadgen/parse/clean
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f CMakeFiles/Makefile2 hadgen/parse/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f CMakeFiles/Makefile2 hadgen/parse/preinstall
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f CMakeFiles/Makefile2 hadgen/parse/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f CMakeFiles/Makefile2 hadgen/parse/preinstall
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f CMakeFiles/Makefile2 hadgen/parse/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hadgen/parse/CMakeFiles/parse.dir/rule:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f CMakeFiles/Makefile2 hadgen/parse/CMakeFiles/parse.dir/rule
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f CMakeFiles/Makefile2 hadgen/parse/CMakeFiles/parse.dir/rule
 .PHONY : hadgen/parse/CMakeFiles/parse.dir/rule
 
 # Convenience name for target.
@@ -112,12 +112,12 @@ parse: hadgen/parse/CMakeFiles/parse.dir/rule
 
 # fast build rule for target.
 parse/fast:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f hadgen/parse/CMakeFiles/parse.dir/build.make hadgen/parse/CMakeFiles/parse.dir/build
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f hadgen/parse/CMakeFiles/parse.dir/build.make hadgen/parse/CMakeFiles/parse.dir/build
 .PHONY : parse/fast
 
 # Convenience name for target.
 hadgen/parse/CMakeFiles/parse_run.dir/rule:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f CMakeFiles/Makefile2 hadgen/parse/CMakeFiles/parse_run.dir/rule
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f CMakeFiles/Makefile2 hadgen/parse/CMakeFiles/parse_run.dir/rule
 .PHONY : hadgen/parse/CMakeFiles/parse_run.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ parse_run: hadgen/parse/CMakeFiles/parse_run.dir/rule
 
 # fast build rule for target.
 parse_run/fast:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f hadgen/parse/CMakeFiles/parse_run.dir/build.make hadgen/parse/CMakeFiles/parse_run.dir/build
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f hadgen/parse/CMakeFiles/parse_run.dir/build.make hadgen/parse/CMakeFiles/parse_run.dir/build
 .PHONY : parse_run/fast
 
 src/fparse.o: src/fparse.f.o
@@ -134,7 +134,7 @@ src/fparse.o: src/fparse.f.o
 
 # target to build an object file
 src/fparse.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f hadgen/parse/CMakeFiles/parse.dir/build.make hadgen/parse/CMakeFiles/parse.dir/src/fparse.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f hadgen/parse/CMakeFiles/parse.dir/build.make hadgen/parse/CMakeFiles/parse.dir/src/fparse.f.o
 .PHONY : src/fparse.f.o
 
 src/main.o: src/main.c.o
@@ -142,7 +142,7 @@ src/main.o: src/main.c.o
 
 # target to build an object file
 src/main.c.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f hadgen/parse/CMakeFiles/parse.dir/build.make hadgen/parse/CMakeFiles/parse.dir/src/main.c.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f hadgen/parse/CMakeFiles/parse.dir/build.make hadgen/parse/CMakeFiles/parse.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -150,7 +150,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f hadgen/parse/CMakeFiles/parse.dir/build.make hadgen/parse/CMakeFiles/parse.dir/src/main.c.i
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f hadgen/parse/CMakeFiles/parse.dir/build.make hadgen/parse/CMakeFiles/parse.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -158,7 +158,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f hadgen/parse/CMakeFiles/parse.dir/build.make hadgen/parse/CMakeFiles/parse.dir/src/main.c.s
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f hadgen/parse/CMakeFiles/parse.dir/build.make hadgen/parse/CMakeFiles/parse.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 # Help Target
@@ -186,6 +186,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

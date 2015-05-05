@@ -45,7 +45,7 @@ CMAKE_EDIT_COMMAND = /opt/shield/etc/bin/ccmake
 CMAKE_SOURCE_DIR = /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield
+CMAKE_BINARY_DIR = /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(CMAKE_COMMAND) -E cmake_progress_start /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/CMakeFiles/progress.marks
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f CMakeFiles/Makefile2 shield/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/CMakeFiles 0
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(CMAKE_COMMAND) -E cmake_progress_start /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/CMakeFiles /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/shield/CMakeFiles/progress.marks
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f CMakeFiles/Makefile2 shield/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f CMakeFiles/Makefile2 shield/clean
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f CMakeFiles/Makefile2 shield/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f CMakeFiles/Makefile2 shield/preinstall
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f CMakeFiles/Makefile2 shield/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f CMakeFiles/Makefile2 shield/preinstall
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f CMakeFiles/Makefile2 shield/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 shield/CMakeFiles/SHIELD.dir/rule:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f CMakeFiles/Makefile2 shield/CMakeFiles/SHIELD.dir/rule
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f CMakeFiles/Makefile2 shield/CMakeFiles/SHIELD.dir/rule
 .PHONY : shield/CMakeFiles/SHIELD.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ SHIELD: shield/CMakeFiles/SHIELD.dir/rule
 
 # fast build rule for target.
 SHIELD/fast:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/build
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/build
 .PHONY : SHIELD/fast
 
 src/Fragments.o: src/Fragments.f.o
@@ -120,7 +120,7 @@ src/Fragments.o: src/Fragments.f.o
 
 # target to build an object file
 src/Fragments.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Fragments.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Fragments.f.o
 .PHONY : src/Fragments.f.o
 
 src/Inspar.o: src/Inspar.f.o
@@ -128,7 +128,7 @@ src/Inspar.o: src/Inspar.f.o
 
 # target to build an object file
 src/Inspar.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Inspar.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Inspar.f.o
 .PHONY : src/Inspar.f.o
 
 src/Loent28.o: src/Loent28.f.o
@@ -136,7 +136,7 @@ src/Loent28.o: src/Loent28.f.o
 
 # target to build an object file
 src/Loent28.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Loent28.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Loent28.f.o
 .PHONY : src/Loent28.f.o
 
 src/Medium.o: src/Medium.f.o
@@ -144,7 +144,7 @@ src/Medium.o: src/Medium.f.o
 
 # target to build an object file
 src/Medium.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Medium.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Medium.f.o
 .PHONY : src/Medium.f.o
 
 src/Microd.o: src/Microd.f.o
@@ -152,7 +152,7 @@ src/Microd.o: src/Microd.f.o
 
 # target to build an object file
 src/Microd.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Microd.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Microd.f.o
 .PHONY : src/Microd.f.o
 
 src/Output.o: src/Output.f.o
@@ -160,7 +160,7 @@ src/Output.o: src/Output.f.o
 
 # target to build an object file
 src/Output.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Output.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Output.f.o
 .PHONY : src/Output.f.o
 
 src/Shield_so.o: src/Shield_so.f.o
@@ -168,7 +168,7 @@ src/Shield_so.o: src/Shield_so.f.o
 
 # target to build an object file
 src/Shield_so.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Shield_so.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Shield_so.f.o
 .PHONY : src/Shield_so.f.o
 
 src/Tree.o: src/Tree.f.o
@@ -176,7 +176,7 @@ src/Tree.o: src/Tree.f.o
 
 # target to build an object file
 src/Tree.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Tree.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/Tree.f.o
 .PHONY : src/Tree.f.o
 
 src/decay1.o: src/decay1.f.o
@@ -184,7 +184,7 @@ src/decay1.o: src/decay1.f.o
 
 # target to build an object file
 src/decay1.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/decay1.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/decay1.f.o
 .PHONY : src/decay1.f.o
 
 src/elscat.o: src/elscat.f.o
@@ -192,7 +192,7 @@ src/elscat.o: src/elscat.f.o
 
 # target to build an object file
 src/elscat.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/elscat.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/elscat.f.o
 .PHONY : src/elscat.f.o
 
 src/files.o: src/files.f.o
@@ -200,7 +200,7 @@ src/files.o: src/files.f.o
 
 # target to build an object file
 src/files.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/files.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/files.f.o
 .PHONY : src/files.f.o
 
 src/gemca.o: src/gemca.f.o
@@ -208,7 +208,7 @@ src/gemca.o: src/gemca.f.o
 
 # target to build an object file
 src/gemca.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/gemca.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/gemca.f.o
 .PHONY : src/gemca.f.o
 
 src/gentree.o: src/gentree.f.o
@@ -216,7 +216,7 @@ src/gentree.o: src/gentree.f.o
 
 # target to build an object file
 src/gentree.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/gentree.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/gentree.f.o
 .PHONY : src/gentree.f.o
 
 src/lndata28.o: src/lndata28.f.o
@@ -224,7 +224,7 @@ src/lndata28.o: src/lndata28.f.o
 
 # target to build an object file
 src/lndata28.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/lndata28.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/lndata28.f.o
 .PHONY : src/lndata28.f.o
 
 src/range.o: src/range.f.o
@@ -232,7 +232,7 @@ src/range.o: src/range.f.o
 
 # target to build an object file
 src/range.f.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/range.f.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/range.f.o
 .PHONY : src/range.f.o
 
 src/shield_decode_tree.o: src/shield_decode_tree.c.o
@@ -240,7 +240,7 @@ src/shield_decode_tree.o: src/shield_decode_tree.c.o
 
 # target to build an object file
 src/shield_decode_tree.c.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_decode_tree.c.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_decode_tree.c.o
 .PHONY : src/shield_decode_tree.c.o
 
 src/shield_decode_tree.i: src/shield_decode_tree.c.i
@@ -248,7 +248,7 @@ src/shield_decode_tree.i: src/shield_decode_tree.c.i
 
 # target to preprocess a source file
 src/shield_decode_tree.c.i:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_decode_tree.c.i
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_decode_tree.c.i
 .PHONY : src/shield_decode_tree.c.i
 
 src/shield_decode_tree.s: src/shield_decode_tree.c.s
@@ -256,7 +256,7 @@ src/shield_decode_tree.s: src/shield_decode_tree.c.s
 
 # target to generate assembly for a file
 src/shield_decode_tree.c.s:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_decode_tree.c.s
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_decode_tree.c.s
 .PHONY : src/shield_decode_tree.c.s
 
 src/shield_geo.o: src/shield_geo.c.o
@@ -264,7 +264,7 @@ src/shield_geo.o: src/shield_geo.c.o
 
 # target to build an object file
 src/shield_geo.c.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_geo.c.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_geo.c.o
 .PHONY : src/shield_geo.c.o
 
 src/shield_geo.i: src/shield_geo.c.i
@@ -272,7 +272,7 @@ src/shield_geo.i: src/shield_geo.c.i
 
 # target to preprocess a source file
 src/shield_geo.c.i:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_geo.c.i
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_geo.c.i
 .PHONY : src/shield_geo.c.i
 
 src/shield_geo.s: src/shield_geo.c.s
@@ -280,7 +280,7 @@ src/shield_geo.s: src/shield_geo.c.s
 
 # target to generate assembly for a file
 src/shield_geo.c.s:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_geo.c.s
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_geo.c.s
 .PHONY : src/shield_geo.c.s
 
 src/shield_init.o: src/shield_init.c.o
@@ -288,7 +288,7 @@ src/shield_init.o: src/shield_init.c.o
 
 # target to build an object file
 src/shield_init.c.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_init.c.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_init.c.o
 .PHONY : src/shield_init.c.o
 
 src/shield_init.i: src/shield_init.c.i
@@ -296,7 +296,7 @@ src/shield_init.i: src/shield_init.c.i
 
 # target to preprocess a source file
 src/shield_init.c.i:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_init.c.i
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_init.c.i
 .PHONY : src/shield_init.c.i
 
 src/shield_init.s: src/shield_init.c.s
@@ -304,7 +304,7 @@ src/shield_init.s: src/shield_init.c.s
 
 # target to generate assembly for a file
 src/shield_init.c.s:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_init.c.s
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_init.c.s
 .PHONY : src/shield_init.c.s
 
 src/shield_iso.o: src/shield_iso.c.o
@@ -312,7 +312,7 @@ src/shield_iso.o: src/shield_iso.c.o
 
 # target to build an object file
 src/shield_iso.c.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_iso.c.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_iso.c.o
 .PHONY : src/shield_iso.c.o
 
 src/shield_iso.i: src/shield_iso.c.i
@@ -320,7 +320,7 @@ src/shield_iso.i: src/shield_iso.c.i
 
 # target to preprocess a source file
 src/shield_iso.c.i:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_iso.c.i
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_iso.c.i
 .PHONY : src/shield_iso.c.i
 
 src/shield_iso.s: src/shield_iso.c.s
@@ -328,7 +328,7 @@ src/shield_iso.s: src/shield_iso.c.s
 
 # target to generate assembly for a file
 src/shield_iso.c.s:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_iso.c.s
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_iso.c.s
 .PHONY : src/shield_iso.c.s
 
 src/shield_media.o: src/shield_media.c.o
@@ -336,7 +336,7 @@ src/shield_media.o: src/shield_media.c.o
 
 # target to build an object file
 src/shield_media.c.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_media.c.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_media.c.o
 .PHONY : src/shield_media.c.o
 
 src/shield_media.i: src/shield_media.c.i
@@ -344,7 +344,7 @@ src/shield_media.i: src/shield_media.c.i
 
 # target to preprocess a source file
 src/shield_media.c.i:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_media.c.i
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_media.c.i
 .PHONY : src/shield_media.c.i
 
 src/shield_media.s: src/shield_media.c.s
@@ -352,7 +352,7 @@ src/shield_media.s: src/shield_media.c.s
 
 # target to generate assembly for a file
 src/shield_media.c.s:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_media.c.s
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_media.c.s
 .PHONY : src/shield_media.c.s
 
 src/shield_setget.o: src/shield_setget.c.o
@@ -360,7 +360,7 @@ src/shield_setget.o: src/shield_setget.c.o
 
 # target to build an object file
 src/shield_setget.c.o:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_setget.c.o
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_setget.c.o
 .PHONY : src/shield_setget.c.o
 
 src/shield_setget.i: src/shield_setget.c.i
@@ -368,7 +368,7 @@ src/shield_setget.i: src/shield_setget.c.i
 
 # target to preprocess a source file
 src/shield_setget.c.i:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_setget.c.i
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_setget.c.i
 .PHONY : src/shield_setget.c.i
 
 src/shield_setget.s: src/shield_setget.c.s
@@ -376,7 +376,7 @@ src/shield_setget.s: src/shield_setget.c.s
 
 # target to generate assembly for a file
 src/shield_setget.c.s:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_setget.c.s
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(MAKE) -f shield/CMakeFiles/SHIELD.dir/build.make shield/CMakeFiles/SHIELD.dir/src/shield_setget.c.s
 .PHONY : src/shield_setget.c.s
 
 # Help Target
@@ -432,6 +432,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

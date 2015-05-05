@@ -6,6 +6,32 @@
 
 #IncludeRegexTransform: 
 
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/inc/hadgen.h
+
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/inc/hadgen_common_blocks.h
+
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/inc/shield.h
+shield_media.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/inc/shield_media.h
+shield_tree.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/inc/shield_tree.h
+shield_geo.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/inc/shield_geo.h
+
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/inc/shield_common_blocks.h
+shield.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/inc/shield.h
+hadgen_common_blocks.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/inc/hadgen_common_blocks.h
+shield_media.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/inc/shield_media.h
+
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/inc/shield_geo.h
+
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/inc/shield_media.h
+
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/inc/shield_tree.h
+
 /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/isotin.data
 
 /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/src/shield_decode_tree.c
@@ -63,30 +89,4 @@ hadgen.h
 /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/src/hadgen.h
 shield_common_blocks.h
 /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/shield/src/shield_common_blocks.h
-
-hadgen/inc/hadgen.h
-
-hadgen/inc/hadgen_common_blocks.h
-
-shield/inc/shield.h
-shield_media.h
-shield/inc/shield_media.h
-shield_tree.h
-shield/inc/shield_tree.h
-shield_geo.h
-shield/inc/shield_geo.h
-
-shield/inc/shield_common_blocks.h
-shield.h
-shield/inc/shield.h
-hadgen_common_blocks.h
-shield/inc/hadgen_common_blocks.h
-shield_media.h
-shield/inc/shield_media.h
-
-shield/inc/shield_geo.h
-
-shield/inc/shield_media.h
-
-shield/inc/shield_tree.h
 

@@ -6,33 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/G__Hadgen.cxx
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/G__Hadgen.cxx
 RConfig.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/RConfig.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/RConfig.h
 G__Hadgen.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/G__Hadgen.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/G__Hadgen.h
 TClass.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/TClass.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/TClass.h
 TBuffer.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/TBuffer.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/TBuffer.h
 TMemberInspector.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/TMemberInspector.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/TMemberInspector.h
 TInterpreter.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/TInterpreter.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/TInterpreter.h
 TVirtualMutex.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/TVirtualMutex.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/TVirtualMutex.h
 TError.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/TError.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/TError.h
 RtypesImp.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/RtypesImp.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/RtypesImp.h
 TIsAProxy.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/TIsAProxy.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/TIsAProxy.h
 TFileMergeInfo.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/TFileMergeInfo.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/TFileMergeInfo.h
 new
 -
 
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/G__Hadgen.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/G__Hadgen.h
 stddef.h
 -
 stdio.h
@@ -44,17 +44,29 @@ math.h
 string.h
 -
 G__ci.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/G__ci.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/G__ci.h
 FastAllocString.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/FastAllocString.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/FastAllocString.h
 TObject.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/TObject.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/TObject.h
 TMemberInspector.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/TMemberInspector.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/TMemberInspector.h
 inc/THadgen.h
-/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/inc/THadgen.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/inc/THadgen.h
 algorithm
 -
+
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/inc/THadgen.h
+cmath
+-
+TObjArray.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/inc/TObjArray.h
+TClonesArray.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/inc/TClonesArray.h
+TGenerator.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/inc/TGenerator.h
+TParticle.h
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/THadgen/inc/TParticle.h
 
 /opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/THadgen/inc/THadgen.h
 cmath
@@ -89,6 +101,8 @@ cstdlib
 -
 time.h
 -
+
+/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/inc/hadgen.h
 
 /opt/shield/etc/include/root/DllImport.h
 
@@ -535,18 +549,4 @@ unistd.h
 -
 sys/types.h
 -
-
-THadgen/inc/THadgen.h
-cmath
--
-TObjArray.h
-THadgen/inc/TObjArray.h
-TClonesArray.h
-THadgen/inc/TClonesArray.h
-TGenerator.h
-THadgen/inc/TGenerator.h
-TParticle.h
-THadgen/inc/TParticle.h
-
-hadgen/inc/hadgen.h
 

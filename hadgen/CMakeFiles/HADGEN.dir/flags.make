@@ -3,11 +3,11 @@
 
 # compile C with /opt/rh/devtoolset-2/root/usr/bin/cc
 # compile Fortran with /opt/rh/devtoolset-2/root/usr/bin/gfortran
-C_FLAGS =  -pthread -fPIC -I/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/inc -I/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/parse   
+C_FLAGS =  -pthread -fPIC -I/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/inc -I/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/hadgen/parse   
 
 C_DEFINES = -DHADGEN_EXPORTS
 
-Fortran_FLAGS = -fPIC -I/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/inc -I/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/parse   
+Fortran_FLAGS = -fPIC -I/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield/hadgen/inc -I/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build/hadgen/parse   
 
 Fortran_DEFINES = -DHADGEN_EXPORTS
 

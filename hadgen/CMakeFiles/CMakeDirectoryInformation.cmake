@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 SET(CMAKE_RELATIVE_PATH_TOP_SOURCE "/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield")
-SET(CMAKE_RELATIVE_PATH_TOP_BINARY "/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield")
+SET(CMAKE_RELATIVE_PATH_TOP_BINARY "/opt/fs/users/kazymai/mybackup/Save/PC/work/Shield/shield-build")
 
 # Force unix paths in dependencies.
 SET(CMAKE_FORCE_UNIX_PATHS 1)
